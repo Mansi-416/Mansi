@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int arr[6]={4,5,3,4,5};
+    int xor=0;
+    for(int i=0;i<6;i++){
+        xor=xor^arr[i];
+    }
+    printf("%d",xor);
+}
